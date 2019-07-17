@@ -1,0 +1,305 @@
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background: linear-gradient(to bottom, #add8e6 60%, #fa8072 100%);
+}
+
+a {
+   cursor: pointer;
+}
+
+.logo{
+  font-family: "lobster";
+  font-size: 2rem;
+}
+
+#fish {
+height: 70px;
+}
+
+#fish:hover {
+  transition: 0.70s;
+  -webkit-transition: 0.70s;
+  -moz-transition: 0.70s;
+  -ms-transition: 0.70s;
+  -o-transition: 0.70s;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+} 
+
+.splashVideoDiv {
+  position: absolute;
+  z-index: -1;
+  width: 100vw;
+}
+
+#video{
+  width: 100vw;
+}
+
+
+#titleDiv {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+}
+
+#title{
+  font-family: "Lobster";
+  font-weight: bold;
+  font-size: 7rem;
+  animation-name: fadeIn;
+  animation-duration: 6s;
+}
+
+#lobster {
+  width: 80%;
+  height: 80%;
+  animation-name: fadeIn;
+  animation-duration: 8s;
+}
+
+
+#aboutUsDiv {
+  margin: auto;
+  width: 50%;
+  background-color: lavender;
+  color: black;
+  margin-top: 40vh;  
+  padding: 30px;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+#aboutUs {
+  text-align: center;
+  font-family: "Lobster"; 
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#aboutUsText {
+  font-family: "arvo";
+  font-size: 1.5rem;
+}
+
+#aboutUsImg {
+  width: 100%;
+  height: 100%;
+  margin-top: 10%;
+}
+
+#menuContainer{
+  position: relative;
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-top: 30vh;
+  
+}
+
+#menuTitle {
+  font-family: "Lobster";
+  font-weight: bold;
+  font-size: 6rem;
+}
+
+#specialsRow{
+  margin-bottom: 90px;
+}
+
+#specials {
+  font-family: "lobster";
+  font-size: 3rem;
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 120%;
+  top: 30%;
+}
+
+#specialsItem {
+  position: relative;
+  background-color: #ffdb58 ;
+  color: black;
+  font-family: "Anton";
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  height: 100px;
+  width: 100px;
+  border: 2px;
+  border-style: dotted;
+  border-color: black;
+  border-radius: 50px;
+  margin-right: 25px;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 20px;
+}
+
+#specialsItem:hover {
+  transform: scale(1.4);
+}
+
+#dinnerRow{
+  margin-bottom: 90px;
+}
+
+#dinner {
+  font-family: "lobster";
+  font-size: 3rem;
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 122%;
+  top: 60%;
+}
+
+#dinnerItem {
+  position: relative;
+  background-color: crimson;
+  color: black;
+  font-family: "Anton";
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  height: 100px;
+  width: 100px;
+  border: 2px;
+  border-style: dotted;
+  border-color: black;
+  border-radius: 50px;
+  margin-right: 25px;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 20px;
+}
+
+#dinnerItem:hover {
+  transform: scale(1.4);
+}
+
+
+#lunch {
+  font-family: "lobster";
+  font-size: 3rem;
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 124%;
+  top: 90%;
+}
+
+#lunchItem {
+  position: relative;
+  background-color: coral;
+  color: black;
+  font-family: "Anton";
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  vertical-align: middle;
+  height: 100px;
+  width: 100px;
+  border: 2px;
+  border-style: dotted;
+  border-color: black;
+  border-radius: 50px;
+  margin-right: 25px;
+  margin-top: 20px;
+  margin-left: 30px;
+  padding: 20px;
+}
+
+#lunchItem:hover {
+  transform: scale(1.4);
+}
+
+#comeVisitTitle {
+  text-align: center;
+  font-family: "Lobster";
+  font-weight: bold;
+  font-size: 6rem;
+}
+
+#address {
+  text-align: center;
+  font-family: "Anton";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+#map {
+  margin: auto;
+  width: 50%;
+}
+
+#mapImg {
+  height: 300px;
+  width: 300px;
+  border: 2px;
+  border-style: dotted;
+  border-color: black;
+  border-radius: 150px;
+  align-content: center;
+  cursor: pointer;
+}
+
+#mapImg:hover {
+  transform: scale(1.1)  
+}
+
+#comeVisitDiv {
+  margin: auto;
+  width: 50%;
+  background-color: lavender;
+  color: black;
+  margin-top: 40vh;  
+  padding: 30px;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+#location {
+  text-align: center;
+  font-family: "Lobster"; 
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#hours {
+  text-align: center;
+  font-family: "Lobster"; 
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+#time {
+  text-align: center;
+  font-family: "Anton";
+  font-weight: bold;
+  font-size: 1.5rem
+}
+
+footer {
+  display: flex;
+  bottom: 0%;
+  margin-top: 10px;
+  color: white;
+  font-family: "Anton";
+  font-weight: bold;
+}
