@@ -17,28 +17,6 @@ a {
    cursor: pointer;
 }
 
-.logo{
-  font-family: "lobster";
-  font-size: 2rem;
-}
-
-#fish {
-height: 70px;
-}
-
-#fish:hover {
-  transition: 0.70s;
-  -webkit-transition: 0.70s;
-  -moz-transition: 0.70s;
-  -ms-transition: 0.70s;
-  -o-transition: 0.70s;
-  -webkit-transform: rotate(360deg);
-  -moz-transform: rotate(360deg);
-  -o-transform: rotate(360deg);
-  -ms-transform: rotate(360deg);
-  transform: rotate(360deg);
-} 
-
 .splashVideoDiv {
   position: absolute;
   z-index: -1;
@@ -48,6 +26,7 @@ height: 70px;
 #video{
   width: 100vw;
 }
+
 
 
 #titleDiv {
@@ -75,6 +54,7 @@ height: 70px;
 #aboutUsDiv {
   margin: auto;
   width: 50%;
+  min-width: 400px;
   background-color: lavender;
   color: black;
   margin-top: 40vh;  
@@ -128,6 +108,11 @@ height: 70px;
   position: absolute;
   right: 120%;
   top: 30%;
+} @media only screen and (max-width: 600px) {
+  #specials {
+   right: 100%;
+   top: 20%;
+  }
 }
 
 #specialsItem {
@@ -166,6 +151,11 @@ height: 70px;
   position: absolute;
   right: 122%;
   top: 60%;
+} @media only screen and (max-width: 600px) {
+  #dinner {
+   right: 100%;
+   top: 53%;
+  }
 }
 
 #dinnerItem {
@@ -201,6 +191,11 @@ height: 70px;
   position: absolute;
   right: 124%;
   top: 90%;
+} @media only screen and (max-width: 600px) {
+  #lunch {
+   right: 100%;
+   top: 86%;
+  }
 }
 
 #lunchItem {
@@ -243,8 +238,9 @@ height: 70px;
 }
 
 #map {
-  margin: auto;
-  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #mapImg {
@@ -254,7 +250,9 @@ height: 70px;
   border-style: dotted;
   border-color: black;
   border-radius: 150px;
-  align-content: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   cursor: pointer;
 }
 
@@ -265,6 +263,7 @@ height: 70px;
 #comeVisitDiv {
   margin: auto;
   width: 50%;
+  min-width: 400px;
   background-color: lavender;
   color: black;
   margin-top: 40vh;  
@@ -295,11 +294,3 @@ height: 70px;
   font-size: 1.5rem
 }
 
-footer {
-  display: flex;
-  bottom: 0%;
-  margin-top: 10px;
-  color: white;
-  font-family: "Anton";
-  font-weight: bold;
-}
